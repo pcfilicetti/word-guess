@@ -1,0 +1,145 @@
+html {
+    background: linear-gradient(to right, #ff71ce 0%, #01cdfe 25%, #05ffa1 50%, #b967ff 75%, #fffb96 100%);
+}
+
+body {
+    margin: 0;
+}
+
+.heading-wrap {
+    text-align: center;
+    background-image: url('../images/macintosh.jpg');
+    background-size: contain;
+    height: 118px
+}
+
+.heading {
+    font-family: 'Monoton', cursive;
+    font-size: 72px;
+    color: white;
+    margin: 0;
+    display: inline;
+    font-style: italic;
+}
+
+.heading#h {
+    color: #ff71ce;
+}
+
+.heading#an {
+    color: #01cdfe;
+}
+
+.heading#g {
+    color: #05ffa1;
+}
+
+.heading#ma {
+    color: #b967ff;
+}
+
+.heading#n {
+    color: #fffb96;
+}
+
+.hm-box {
+    width: 700px;
+    padding: 25px;
+    margin: 50px auto 0 auto;
+    background-color: white;
+    box-shadow: 1px 1px 10px 0 rgba(50,50,50,0.6);
+    height: 700px;
+}
+
+.hm-box .hm-head {
+    font-family: 'Monoton', cursive;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.hm-box .display-man {
+    border: 1px solid #fffb96;
+    background-image: url('../images/hangman.png');
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.hm-box .display-man .hangman-body {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+.hm-box .display-man .hangman-body#hangman-chain {
+    height: 40px;
+    top: 135px;
+    right: 180px;
+    z-index: 5;
+}
+
+.hm-box .display-man .hangman-body#hangman-left {
+    height: 40px;
+    top: 137px;
+    right: 260px;
+}
+
+.hm-box .display-man .hangman-body#hangman-right {
+    height: 40px;
+    top: 137px;
+    right: 100px;
+}
+
+.hm-box .display-man .hangman-body#hangman-pants {
+    width: 50px;
+    top: 190px;
+    right: 200px;
+    z-index: 2;
+}
+
+.hm-box .display-man .hangman-body#hangman-head {
+    height: 50px;
+    width: 50px;
+    top: 90px;
+    right: 205px;
+    z-index: 4;
+}
+
+.hm-box .display-man .hangman-body#hangman-hat {
+    height: 50px;
+    width: 50px;
+    top: 60px;
+    right: 205px;
+    z-index: 5;
+}
+
+.hm-box .display-man .hangman-body#hangman-shoes {
+    top: 260px;
+    right: 176px;
+    z-index: 1;
+}
+
+.hm-box .display-man .hangman-body#hangman-shirt {
+    top: 121px;
+    right: 180px;
+    z-index: 3;
+}
+
+.wrapper {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper #display-lives {
+    color: #01cdfe;
+}
+
+.wrapper #display-word {
+    color: #b967ff;
+}
+
+.wrapper #display-guesses {
+    color: #ff71ce;
+}
