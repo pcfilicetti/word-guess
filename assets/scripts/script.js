@@ -78,7 +78,6 @@ function updateGuess() {
 
 function updateGuessList(keyPressed) {
     if(guessingList.innerHTML.indexOf(keyPressed.toUpperCase()) == -1) {
-        console.log(keyPressed + guessingList.innerHTML.indexOf(keyPressed));
         guessingList.innerHTML += keyPressed.toUpperCase() + ' ';  
     }
 }
